@@ -12,6 +12,13 @@ https://dougscripts.com/itunes/scripts/ss.php?sp=explaylistastext
 
 4. https://dougscripts.com/itunes/itinfo/shortcutkeys.php. Follow this guide to assign command+H to run the clipboard to multi-track lyrics script.
 
-5. Run the main program, and immediately select the first song in the "Songs" menu on iTunes. Ensure that itunes remains in the foreground and you don't click away
+5.Sign up for a genius API and copy the client ID to the LyricsGrabber program
 
-6. Wait until completion
+6.Run the LyricsGrabber program, and immediately click away and select the first song in the "Songs" menu on iTunes. Ensure that itunes remains in the foreground and you don't click away
+
+7. Wait until completion
+
+Dependencies:
+1.lyricsgenius- https://pypi.org/project/lyricsgenius/
+2.python keyboard- https://pypi.org/project/keyboard/
+3.pyperclip- https://pypi.org/project/pyperclip/
