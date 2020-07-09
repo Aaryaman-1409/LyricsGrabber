@@ -19,6 +19,6 @@ https://dougscripts.com/itunes/scripts/ss.php?sp=explaylistastext
 7. Wait until completion
 
 Dependencies:
-1.lyricsgenius- https://pypi.org/project/lyricsgenius/
-2.python keyboard- https://pypi.org/project/keyboard/
-3.pyperclip- https://pypi.org/project/pyperclip/
+1. lyricsgenius- https://pypi.org/project/lyricsgenius/
+2. python keyboard- https://pypi.org/project/keyboard/
+3. pyperclip- https://pypi.org/project/pyperclip/
