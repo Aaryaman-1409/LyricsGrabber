@@ -6,9 +6,11 @@ How to use:
 
 2. Sign up for a genius API and then click on generate ClientID. Enter this string in the LyricsGrabber program. There is a comment highlighting where to copy it.
 
-3. Run the program. Don't worry about any errors as long as the program stil continues running. If there is an error and the program stops, bring it up in the issues page.
+3. If you have any songs which are by multiple artists, genius won't recognize them. There is a comment in the program that mentions artists delimiters. Change it to whatever character is in between the artists name. For example, if you had Asap Rocky/ Kendrick Lamar/ J.Cole, the delimiter would be a "/".
 
-4. Wait until completion
+4. Run the program from IDLE. Don't worry about any errors as long as the program stil continues running. If there is an error and the program stops, bring it up in the issues page.
+
+5. Wait until completion
 
 Install the following dependencies:
 1. lyricsgenius- https://pypi.org/project/lyricsgenius/
