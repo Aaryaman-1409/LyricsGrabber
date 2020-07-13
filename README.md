@@ -1,24 +1,15 @@
 # LyricsGrabber
-A Mac-Only UI automation program that grabs lyrics from Genius and sets them in an iTunes friendly format. Note: Your music files need to be on iTunes
+A python program that grabs lyrics from Genius and sets them to mp3 files. Note: All your music files must be in one common folder of you choice. You can even have folders of music within that main folder
 
 How to use:
-1. You need to install a few scripts from Doug's applescripts including:
-https://dougscripts.com/itunes/scripts/ss.php?sp=cliptomultilyrics and 
-https://dougscripts.com/itunes/scripts/ss.php?sp=explaylistastext
+1. Open the LyricsGrabber python file in IDLE or any other editor of your choice. You simply have to change the pathname variable to path of the folder where all your music files are saved.
 
-2. Go into the songs menu. Use the applescript that exports playlist info to clipboard and choose the option that says song and artist only. Save this to a text file
+2. Sign up for a genius API and then click on generate ClientID. Enter this string in the LyricsGrabber program. There is a comment highlighting where to copy it.
 
-3. Run the clean-up text program to ensure that the text file is formatted properly. You can edit the file path information based on where you saved your text file
+3. Run the program. Don't worry about any errors as long as the program stil continues running. If there is an error and the program stops, bring it up in the issues page.
 
-4. https://dougscripts.com/itunes/itinfo/shortcutkeys.php. Follow this guide to assign command+H to run the clipboard to multi-track lyrics script.
+4. Wait until completion
 
-5. Sign up for a genius API and copy the client ID to the LyricsGrabber program
-
-6. Run the LyricsGrabber program, and immediately click away and select the first song in the "Songs" menu on iTunes. Ensure that itunes remains in the foreground and you don't click away
-
-7. Wait until completion
-
-Dependencies:
+Install the following dependencies:
 1. lyricsgenius- https://pypi.org/project/lyricsgenius/
-2. python keyboard- https://pypi.org/project/keyboard/
-3. pyperclip- https://pypi.org/project/pyperclip/
+2. EyeD3- https://eyed3.readthedocs.io/en/latest/
