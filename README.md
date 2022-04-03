@@ -7,7 +7,3 @@ How to use:
 2. Sign up for a genius API and then click on generate ClientID. Enter this string in the LyricsGrabber program.
 
 3. If you have any songs which are by multiple artists, genius won't recognize them. There is a comment in the program that mentions artists delimiters. Change it to whatever character is in between the artists name. For example, if you had Asap Rocky/ Kendrick Lamar/ J.Cole, the delimiter would be a "/".
-
-Install the following dependencies:
-1. lyricsgenius- https://pypi.org/project/lyricsgenius/
-2. EyeD3- https://eyed3.readthedocs.io/en/latest/
